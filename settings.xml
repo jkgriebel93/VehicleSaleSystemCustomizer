@@ -1,0 +1,45 @@
+<VehicleSaleSystemCustomizer>
+	<Settings
+	GeneratedHourlyChance="100"
+	MaxGeneratedItemsDuration="72"
+	MinGeneratedItemDuration="36"
+	MaxGeneratedItems="100"
+	MinimumItemValue="3500"
+	BuyPriceFactor="1.1"
+	MaxMultiplayerItemDuration="60"
+	MinMultiplayerItemDuration="50"
+	MultiplayerAcceptChance="1.0"
+	MaxMultiplayerItems="50"
+	NewMaxDiscount="0.90"
+	UseRepricing="true"
+	/>
+</VehicleSaleSystemCustomizer>
+
+	<!--
+Explanations:
+	GeneratedHourlyChance="30"			Hourly percentage to generate discount Item	(use 0[no generation of items] - 100[one item will be generated at every full houre till MaxGeneratedItems is reached])
+	MaxGeneratedItemsDuration="60"		Max possible Duration of item offer in hours (Singleplayer)
+	MinGeneratedItemDuration="50"		Min possible Duration of item offer in hours (Singleplayer)
+	MaxGeneratedItems="10"				Maximum number of generated item offers 
+	MinimumItemValue="5000"				Items below this value are not taken into account of discount offer
+	BuyPriceFactor="1.1"				Dont know yet...
+	MaxMultiplayerItemDuration="60"		Max possible Duration of item offer in hours (Multiplayer)
+	MinMultiplayerItemDuration="50"		Min possible Duration of item offer in hours (Multiplayer)
+	MultiplayerAcceptChance="1.0"		Chance of adding sold Item to VehicleSaleSystem (use 0.0[never] - 1.0[always]; Multiplayer)
+	MaxMultiplayerItems="50"			Max number of Items in VehicleSaleSystem at once, generated and sold vehicles combined (Multiplayer)
+	NewMaxDiscount="0.15"				Max discount that could occur (Percentage) 
+	UseRepricing="true"					true: Script uses NewMaxDiscount; false: Scripts doesnt use NewMaxDiscount - the value of discount will stay on default
+	
+Default Game Settings:
+	GeneratedHourlyChance="0.15"				
+	MaxGeneratedItemsDuration="40"
+	MinGeneratedItemDuration="20"
+	MaxGeneratedItems="5"
+	MinimumItemValue="10000"
+	BuyPriceFactor="1.1"
+	MaxMultiplayerItemDuration="40"
+	MinMultiplayerItemDuration="20"
+	MultiplayerAcceptChance="0.8"
+	MaxMultiplayerItems="20"
+
+	-->

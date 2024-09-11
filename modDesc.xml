@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="63">
+    <author>RedFoxModding</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Vehicle Salesystem Customizer</en>
+    </title>
+    <description>
+<en>
+<![CDATA[This mod allows you to adapt the used goods trade to your needs.
+
+You can configure the following properties of the used goods trade:
+- Maximum possible discount (can be deactivated)
+- Maximum number of offers
+- Maximum number of new offers
+- Probability with which new offers will emerge
+- Probability with which machines sold will be taken over into the used goods trade
+- Minimum and maximum duration of the availability of offers
+- Minimum value of machines that may appear in the used goods trade
+
+The properties can be edited in the settings.xml.
+ 
+The following properties are preset:
+The maximum possible discount is 15%.
+The likelihood that new offers will be created is increased. (doubled)
+The duration for which offers are available is increased. (2 - 2.5 Tage)
+The number of offers possible at the same time has increased. (10)
+The number of offers occurring at the same time has increased. (50)
+All machines sold are used in the used goods trade.
+
+The maximum possible discount relates to a configurable maximum value (NewMaxDiscount). If the game creates a new offer with a random discount, the discount will be proportioned based on the new maximum discount.
+With a maximum possible discount of 15%, all offers from the used goods trade will have a discount of between 1% and 15%.
+]]>
+</en>
+<de>
+<![CDATA[Diese Mod ermöglicht es dir den Gebrauchtwarenhandel deinen Bedürfnissen anzupassen. 
+
+Du kannst folgende Eigenschaften des Gebrauchtwarenhandels konfigurieren:
+- Maximal möglicher Rabatt (deaktivierbar)
+- Maximale Anzahl von Angeboten 
+- Maximale Anzahl von neuen Angeboten
+- Wahrscheinlichkeit, mit der neue Angebote entstehen
+- Wahrscheinlichkeit, mit der verkaufte Maschinen in den Gebrauchtwarenhandel übernommen werden
+- Minimale und Maximale Dauer der Verfügbarkeit von Angeboten
+- Minimaler Wert von Maschinen, die im Gebrauchtwarenhandel erscheinen können
+
+Die Eigenschaften können in der settings.xml editiert werden.
+ 
+Folgende Eigenschaften sind voreingestellt:
+Der maximal mögliche Rabatt beträgt 15%. 
+Die Wahrscheinlichkeit, mit der neue Angebote erstellt werden, ist erhöht. (verdoppelt)
+Die Dauer, für die Angebote zur Verfügung stehen, ist erhöht. (2 - 2.5 Tage)
+Die Anzahl von gleichzeitig möglichen Angeboten ist erhöht. (10)
+Die Anzahl von gleichzeitig vorkommenden Angeboten ist erhöht. (50)
+Alle verkauften Maschinen kommen in den Gebrauchtwarenhandel.
+
+Der maximal mögliche Rabatt bezieht sich auf einen konfigurierbaren Maximalwert (NewMaxDiscount). Wenn das Spiel ein neues Angebot mit einem zufälligen Rabatt erstellt, wird der Rabatt anhand des neuen Maximalrabattes ins Verhältnis gesetzt.
+Bei einem maximal möglichen Rabatt von 15% werden alle Angebote des Gebrauchtwarenhandels zwischen 1% und 15% Rabatt haben.
+]]>
+</de>
+    </description>
+    <iconFilename>modIcon.dds</iconFilename>
+    <multiplayer supported="true" />
+
+    <extraSourceFiles>
+        <sourceFile filename="VehicleSaleSystemCustomizer.lua" />
+    </extraSourceFiles>
+</modDesc>
+
