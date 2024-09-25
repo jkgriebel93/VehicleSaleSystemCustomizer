@@ -63,7 +63,6 @@ Bei einem maximal möglichen Rabatt von 15% werden alle Angebote des Gebrauchtwa
     <multiplayer supported="true" />
 
     <extraSourceFiles>
-        <sourceFile filename="VehicleSaleSystemCustomizer.lua" />
+        <sourceFile filename="scripts/VehicleSaleSystemCustomizer.lua" />
     </extraSourceFiles>
 </modDesc>
-
